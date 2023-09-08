@@ -18,28 +18,28 @@ CREATE TABLE Sorveteria.Clientes (
 -- Criar Tabela
 CREATE TABLE Sorveteria.Pedidos (
      Id int(30) auto_increment primary key,
-	 Id_Clientes int,
-	 DataPedido date not null,
-     ValorTotal decimal(10,2) not null,
      Foreign Key (ID_Clientes) REFERENCES Clientes(ID)
+     Id_Clientes int,
+     DataPedido date not null,
+     ValorTotal decimal(10,2) not null,
   );
   
 -- Inserindo Valores Clientes
 
 INSERT INTO Sorveteria.Clientes (Nome, Email, Telefone)
-VALUES ('Gabriel', 'gabrielgmail.com', '(00) 0 0000-0000');
+VALUES ('Gabriel', 'gabriel@gmail.com', '(11) 1 1111-1111');
 
 INSERT INTO Sorveteria.Clientes (Nome, Email, Telefone)
-VALUES ('Matheus', 'matheusgmail.com', '(11) 1 1111-1111');
+VALUES ('Fernando', 'fernando@gmail.com', '(22) 2 2222-2222');
 
 INSERT INTO Sorveteria.Clientes (Nome, Email, Telefone)
-VALUES ('Maria', 'mariagmail.com', '(22) 2 2222-2222');
+VALUES ('Caio', 'caio@gmail.com', '(33) 3 3333-3333');
 
 INSERT INTO Sorveteria.Clientes (Nome, Email, Telefone)
-VALUES ('Marcio', 'marciogmail.com', '(44) 4 4444-4444');
+VALUES ('Venicio', 'venicio@gmail.com', '(44) 4 4444-4444');
 
 INSERT INTO Sorveteria.Clientes (Nome, Email, Telefone)
-VALUES ('Bruno', 'brunogmail.com', '(55) 5 5555-5555');
+VALUES ('Raphael', 'raphael@gmail.com', '(55) 5 5555-5555');
 
 -- Inserindo Valores Pedidos
 
