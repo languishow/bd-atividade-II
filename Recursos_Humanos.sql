@@ -44,16 +44,16 @@ INSERT INTO Recursos_Humanos.Funcionarios(ID_Departamento,Nome,Cargo,Salario)
 VALUES( 1 ,'Gabriel','Programador', 1500.00);
 
 INSERT INTO Recursos_Humanos.Funcionarios(ID_Departamento,Nome,Cargo,Salario)
-VALUES( 2 ,'Fernando','Artista', 1000.00);
+VALUES( 2 ,'Fernando','Diretor de Cinema', 1000.00);
 
 INSERT INTO Recursos_Humanos.Funcionarios(ID_Departamento,Nome,Cargo,Salario)
 VALUES( 3 ,'Caio','Jovem Aprendiz', 500.00);
 
 INSERT INTO Recursos_Humanos.Funcionarios(ID_Departamento,Nome,Cargo,Salario)
-VALUES( 4 ,'Venicio','Comerciante', 950.00);
+VALUES( 4 ,'Venicio','Vendedor', 950.00);
 
 INSERT INTO Recursos_Humanos.Funcionarios(ID_Departamento,Nome,Cargo,Salario)
-VALUES( 5 ,'Raphael','Dono de Depositos', 750.00);
+VALUES( 5 ,'Raphael','Comerciante', 750.00);
 
 
 
